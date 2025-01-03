@@ -10,6 +10,12 @@
 - GLM
 - LUA
 
+
+### CLion
+- Download: https://www.jetbrains.com/clion/download/download-thanks.html
+
+---
+
 ### MinGW
 
 - Source: https://winlibs.com
@@ -17,6 +23,13 @@
 
 ### Instructions
 
-First unzip MinGW and brakeza-win-x86_64-mingw.zip in same folder.
+ - Unzip winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-16.0.6-mingw-w64ucrt-11.0.0-r1.zip
+ - Unzip brakeza-win-x86_64-mingw.zip (this repository) in same folder
+ - Setup CLion for our MinGW Toolchain (File > Settings > Build, Execution, Deployment > Toolchains)
+ - Download source code of Brakeza3D into a folder and open project with CLion.
+ - Run CMake and compile!
 
-Setup CLion for using previous MinGW Toolchain! Run CMake and compile!
+### Regards
+
+Va por ti Juan! (Habré pasado más tiempo preparando esto, que lo que dedicarás a mirarlo)
+
